@@ -1,0 +1,29 @@
+- site: 'SearchNetworking'
+  url: 'http://searchnetworking.techtarget.com/rss/Network-Security-Tactics.xml'
+
+- site: 'SearchStorage'
+  url: 'http://searchstorage.techtarget.com/rss/Storage-technology-learning-materials.xml'
+
+- site: 'SearchITChannel'
+  url: 'http://searchitchannel.techtarget.com/rss/Channel-News-Update.xml'
+
+- site: 'searchCloudApplications'
+  url: 'http://searchcloudapplications.techtarget.com/rss/News-on-SaaS-PaaS-cloud-app-integration-and-development.xml'
+
+- site: 'SearchCloudComputing'
+  url: 'http://searchcloudcomputing.techtarget.com/rss/Cloud-computing-news-and-technical-advice.xml'
+
+- site: 'SearchDataBackup'
+  url: 'http://searchdatabackup.techtarget.com/rss/Data-backup-news.xml'
+
+- site: 'SearchVirtualDesktop'
+  url: 'http://searchvirtualdesktop.techtarget.com/rss/News-on-desktop-virtualization.xml'
+
+- site: 'SearchAWS'
+  url: 'http://searchaws.techtarget.com/rss/News-on-amazon-web-services-trends-and-technology.xml'
+
+- site: 'SearchTelecom'
+  url: 'http://searchtelecom.techtarget.com/rss/Telecom-news-and-technical-information.xml'
+
+- site: 'SearchOracle'
+  url: 'http://searchoracle.techtarget.com/rss/Oracle-news-and-trends.xml'

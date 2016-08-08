@@ -1,0 +1,30 @@
+<div class="col-xs-offset-2 col-xs-12">
+  <h1>List of RSS Feed Items(Sorted by Publish Date)</h1>
+</div>
+<div class="col-xs-offset-2 col-xs-12">
+  <label class="col-xs-6">Total Search Site Count: <%= @sites.count %></label>
+</div>
+
+<div class="col-xs-12">
+  <% @items.each do |item| %>
+    <div class="col-xs-offset-2 col-xs-6">
+      <div class="panel panel-primary">
+
+        <div class = "panel-heading">
+          <h3>Title: <%= item.title %></h3>
+        </div>
+        <div class="panel-body no-gutter">
+          <h4>From: <%= item.site.name %></h4>
+          <h4><li>Publish Date: <strong><%= item.pubDate %></strong></li></h4>
+          <div class="col-xs-12">
+            <label class="col-xs-2">Description: </label>
+            <label class="col-xs-8"><%= item.description %></label>
+          </div>
+          <li>Author: <%= item.author %></li>
+          <p><%= link_to "#{item.link}", "#{item.link}" %></p>
+        </div>
+
+      </div>
+    </div>
+  <% end %>
+</div>
