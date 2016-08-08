@@ -1,28 +1,16 @@
-== README
+== How to Run the program
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+*Make sure your computer have ruby and rails installed
 
-Things you may want to cover:
+The following command line are used to run the application on your computer's terminal:
+- bundle install
 
-* Ruby version
+- rake db:drop
 
-* System dependencies
+- rake db:create
 
-* Configuration
+- rake db:migrate
 
-* Database creation
+- rake db:seed
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+- rails s
